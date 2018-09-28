@@ -1,0 +1,16 @@
+entity Substance {
+	name String
+    amount Integer
+    unit String
+    date LocalDate
+}
+
+// Set pagination options
+paginate Substance with infinite-scroll
+
+
+// Set service options to all except few
+service Substance
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
